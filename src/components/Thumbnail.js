@@ -1,7 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-
 import Row from '../styledcomps/Row';
 import Column from '../styledcomps/Column';
 import Pixel from '../styledcomps/Pixel';
