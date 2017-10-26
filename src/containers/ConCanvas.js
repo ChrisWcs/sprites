@@ -9,6 +9,6 @@ const mapDispatchToProps = () => ({
     func: () => {}
 });
 
-const ConCanvas = connect( mapStateToProps, mapDispatchToProps )(Canvas);
+const ConCanvas = connect(mapStateToProps, mapDispatchToProps)(Canvas);
 
 export default ConCanvas;

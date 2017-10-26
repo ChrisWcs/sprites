@@ -1,5 +1,5 @@
 export const blankSprite = ( r, c ) => {
-    let str = "rgb(0,0,0)";
+    let str = "rgb(255,255,255)";
 
     let arr = [];
 

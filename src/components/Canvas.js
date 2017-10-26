@@ -9,7 +9,7 @@ const Canvas = ({ matrix, func }) => (
     <Column>
         {matrix.map( (r, i) =>{
             return(
-                <Row key={i}>{r.map( (p, j) => <Pixel onClick={func(i,j)} key={j} color={p} width={40} height={40}/>)}</Row>
+                <Row key={i}>{r.map( (p, j) => <Pixel onClick={func(i,j)} key={j} color={p} width={"40px"} height={"40px"}/>)}</Row>
             );
         })}
     </Column>
